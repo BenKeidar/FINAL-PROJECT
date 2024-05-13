@@ -1,2 +1,8 @@
-FINAL PROJECT
-This is my final project (currently in work), we are 2 students working in collaboration with Qognify company. The project written in NodeJs & mongoDB and REACT on client side, using threads, sockets, massage queue, and more advanced technologies. The server get metadata and thumbnails from the comapany's analytic server (that works with NVIDIA DEEPSTREAM and YOLO) through rabbitMQ queue, save it in mongoDB database and answer to client query's on sokets. the client cant ask the server for wanted man or car in cameras in specific time range and display the results (pictures and information about them).
+I did my final project together with a partner in collaboration with Qognify company.
+The project written in NodeJS & JS using MongoDB on backend and REACT
+on frontend, using async threads, sockets, message queue and more advance
+technologies. The server receives metadata from Qognify's video analytic server
+(that reqognize objects using NVIDIA DEEPSTREAM and YOLO) through rabbitMQ
+message queue, save it on DB, and replys to clients queries on sockets. The client
+searching specific man or car (or both) in specific cameras and time range and
+display the results.
